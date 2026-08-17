@@ -13,15 +13,15 @@ export default function Navbar() {
   return (
     <nav className="bg-white border-b" style={{ borderColor: '#E5E7EB' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-28">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
               <Image
                 src="/logo.png"
                 alt="River Ventures Inc"
-                width={200}
-                height={60}
-                style={{ objectFit: 'contain', height: '52px', width: 'auto' }}
+                width={320}
+                height={100}
+                style={{ objectFit: 'contain', height: '90px', width: 'auto' }}
                 priority
               />
             </Link>
