@@ -1,12 +1,13 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 export default function Navbar() {
   const pathname = usePathname();
 
-  const linkColor = (href) =>
+  const linkColor = (href: string) =>
     pathname === href ? '#1E3A5F' : '#6B7280';
 
   return (
@@ -15,10 +16,14 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <div>
-                <span className="text-xl font-bold" style={{ color: '#1E3A5F' }}>River Ventures</span>
-                <span className="text-xl font-light" style={{ color: '#1E3A5F' }}> Inc</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="River Ventures Inc"
+                width={200}
+                height={60}
+                style={{ objectFit: 'contain', height: '52px', width: 'auto' }}
+                priority
+              />
             </Link>
           </div>
           <div className="hidden md:block">
