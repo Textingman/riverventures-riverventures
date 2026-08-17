@@ -29,7 +29,7 @@ export default function Footer() {
             <p className="text-sm" style={{ color: '#BFDBFE' }}>support@riverventurescorporation.com</p>
             <p className="text-sm mt-1" style={{ color: '#BFDBFE' }}>505 N Brand Blvd., 16th Floor</p>
             <p className="text-sm" style={{ color: '#BFDBFE' }}>Glendale, CA 91203</p>
-            <p className="text-sm mt-1" style={{ color: '#BFDBFE' }}>(XXX) XXX-XXXX</p>
+            <p className="text-sm mt-1" style={{ color: '#BFDBFE' }}>(818) 913-6584</p>
           </div>
         </div>
         <div className="mt-10 pt-8 text-center" style={{ borderTop: '1px solid #1E3A5F', color: '#BFDBFE' }}>
