@@ -89,7 +89,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>Phone</h3>
-                  <p style={{ color: '#6B7280' }}>(XXX) XXX-XXXX</p>
+                  <p style={{ color: '#6B7280' }}>(818) 913-6584</p>
                 </div>
               </div>
             </div>
